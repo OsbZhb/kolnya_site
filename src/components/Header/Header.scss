@@ -1,0 +1,58 @@
+.header {
+    margin-bottom: 98px;
+}
+
+.header__logo {
+    margin: 54px auto;
+}
+
+.header__navbar {
+margin-bottom: 62px;
+}
+
+.nav-links {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+    padding: 5px 15px; 
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+}
+
+.nav-links li:hover {
+    cursor: pointer;
+    background: #E6BC28;
+    border-radius: 42px;
+}
+
+.slider__btn {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left: 913px;
+    top: 350px;
+    background: #E6BC28;
+    /* drop_button */
+    border-radius: 68px; 
+    a {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 192.7%;
+        text-align: center;
+        letter-spacing: 0.125em;
+        color: #171717;
+        text-transform: uppercase;
+    }
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px #da4cdf;
+   
+}

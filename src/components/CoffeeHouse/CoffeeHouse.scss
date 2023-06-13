@@ -1,0 +1,74 @@
+.coffeeHouse {
+    margin-top: 50px;
+}
+
+.coffeeHouse_backgroundImages {
+    position: absolute;
+}
+
+.img__pie {
+    position: relative;
+    left: 1250px;
+    top: 650px;
+    transform: rotate(0deg);
+}
+
+.coffeeСup {
+    position: relative;
+    left: 900px;
+    top: 0px;
+    transform: rotate(0deg);
+}
+
+.coffeeTumbler{
+    position: relative;
+    right: 970px;
+    top: -300px;
+    transform: rotate(0deg);
+}
+
+.coffeeHouse__block {
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+}
+.coffeeHouse-title {
+    font-family: 'Neusa';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98.2%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    span {
+        color: #E5BC28;
+    }
+    margin: 30px 0 60px 0;
+}
+.coffeeHouse-subtitle{
+    display: flex;
+    text-align: center;
+    width: 870px;
+    height: 91px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190.2%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 101px;
+    
+}
+.coffeeHouse__content {
+    width: 1170px;
+    height: 390px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+}
+
+.coffeeHouse__photos {
+    display: flex;
+    gap: 30px;
+}

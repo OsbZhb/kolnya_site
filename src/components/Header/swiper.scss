@@ -1,0 +1,33 @@
+#app {
+    height: 100%;
+  }
+
+  .header__slider {
+    width: 1150px;
+    height: 440px;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #282828;
+    // background: url(../../assets/logo_slider.png) #383838 no-repeat;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

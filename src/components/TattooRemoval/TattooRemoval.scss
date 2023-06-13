@@ -1,0 +1,94 @@
+.tattooRemoval__block {
+    display: flex;
+    width: 1167.5px;
+    height: 813px;
+}
+
+.block__image {
+    width: 594px;
+    display: flex;
+    align-items: flex-end;
+}
+.image__background {
+    position: absolute;
+    z-index: 1;
+    transform: rotate(-1deg);
+
+
+
+}
+
+.imege__laser {
+    position: relative;
+    z-index: 2;
+    top: -14.9px;
+    transform: rotate(0.8deg);
+    
+    
+
+}
+
+.block_text {
+    width: 570px;
+    height: 721px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-top: 95px;
+}
+
+.tattooRemoval__title {
+    font-family: 'Neusa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98.2%;
+    /* or 71px */
+    text-align: start;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    // span {
+    //     color: #E5BC28;
+    // }
+}
+
+.tattooRemoval__subtitle {
+        text-align: start;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 216.2%;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.tattooRemoval__list {
+    margin-left: 15px;
+    text-align: left;
+
+}
+
+.tattooRemoval__items {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+    
+}
+
+.tattooRemoval__item {
+    list-style-type: disc;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 245.7%;
+    /* or 44px */
+
+
+    color: #FFFFFF;
+
+}

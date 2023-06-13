@@ -1,0 +1,133 @@
+.tattooSchool {
+    margin-bottom: 50px;
+}
+
+.tattooSchool__wrapper-background {
+    display: flex;
+    width: 1710px;
+    height: 1394px;
+    position: absolute;
+}
+
+.tattooSchool-background {
+    position: absolute;
+    width: 1710px;
+    height: 100%;
+    left: -250px;
+}
+.tattooSchoolCake {
+    position: relative;
+    width: 306.23px;
+    height: 293.31px;
+    right: 200px;
+    top: 70px;
+
+    transform: rotate(-0deg);
+}
+.tattooSchool__lines {
+
+}
+.tattooSchool__line_1 {
+    position: relative;
+    left: -100px;
+    top: 250px;
+    transform: rotate(0deg);
+}
+.tattooSchool__line_2 {
+    position: relative;
+    left: -100px;
+    top: 100px;
+    transform: rotate(-0.42deg);
+}
+.tattooSchool__line_3 {
+    position: relative;
+    left: 170px;
+    top: 150px;
+    transform: rotate(10.42deg);
+}
+.tattooSchool__line_4 {
+    position: relative;
+    left: 300px;
+    top: 200px;
+    transform: rotate(10.42deg);
+}
+.tattooSchool__block-title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.tattooSchool__title {
+    width: 871px;
+    padding-top: 350px;
+    position: relative;
+    font-family: 'Neusa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 98.2%;
+    text-transform: uppercase;
+    color: #171717;
+    margin-bottom: 80px;
+}
+
+.tattooSchool_box {
+    // position: absolute;
+    position: relative;
+    display: flex;
+    width: 1170px;
+    height: 89px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tattooSchool_item {
+    width: 350px;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Neusa';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100.2%;
+    text-transform: uppercase;
+    text-align: left;
+    color: #171717;
+    span {
+        font-size: 37px;
+        // width: 300px;
+    }
+}
+
+.tattooSchool_item:last-child {
+    width: 450px;
+}
+
+.tattooSchool_videos {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    position: relative;
+    margin-top: 50px;
+    gap: 10px;
+    img {
+        width: 370px;
+    }
+}
+
+.tattooSchool_text {
+    width: 1160px;
+    position: relative;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 216.2%;
+    text-align: center;
+    color: #171717;
+}
+
+.tattooSchool__btn {
+    position: relative;
+    margin-top: 50px;
+}

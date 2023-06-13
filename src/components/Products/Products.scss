@@ -1,0 +1,91 @@
+.products {
+    margin-top: 30px;
+}
+
+.products__block {
+    width: 1171px;
+    height: 950px;
+    margin-bottom: 50px;
+}
+
+.products__title {
+    font-family: 'Neusa';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98.2%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.products_namebox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__title {
+    font-family: 'Neusa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98.2%;
+    /* or 71px */
+    text-align: start;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.products__subtitle {
+    text-align: start;
+    width: 570px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 195%;
+    color: #FFFFFF;
+}
+
+
+.products__btn {
+    width: 280px;
+    height: 60px;
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 68px;
+}
+
+.products__showcase {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    h2 {
+        font-family: 'Neusa';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        /* or 125% */
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+    p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 195.2%;
+        color: #FFFFFF;
+    }
+
+}
+
+.products__showcase-item {
+    display: flex;
+    width: 270px;
+    height: 650px;
+    flex-direction: column;
+    gap: 30px;
+}

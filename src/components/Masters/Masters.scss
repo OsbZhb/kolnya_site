@@ -1,0 +1,148 @@
+.masters{
+    height: 1820px;
+    // height: 1440px;
+    // position: relative;
+}
+
+// .masters__bg {
+//     background: url(./photo/bg.png) no-repeat;
+//     // position: absolute;
+//     width: 1710px;
+//     height: 1406px;
+//     left: 105px;
+//     top: 2367px;
+// }
+.masters__headline{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.masters__title {
+    font-family: 'Neusa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98.2%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.masters__subtitle {
+    width: 618px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190.2%;
+    color: #FFFFFF;
+}
+.yallwo__wrapper {
+    display: flex;
+    width: 1710px;
+    height: 1406px;
+    position: absolute;
+    margin-top: 80px;
+    
+    
+    
+    // left: 10px;
+    // top: 2400px;
+}
+.yallow-background {
+    position: absolute;
+    width: 1710px;
+    height: 100%;
+    left: -250px;
+}
+
+.masters__cards {
+    z-index: 1;
+    position: relative;   
+    margin-top: 80px;
+}
+
+.cards__item-1 {
+    width: 350px;
+    height: 571px;
+
+}
+.cards__item-1 img {
+    filter: blur(30%);
+}
+.masters__cards-item {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+
+}
+
+.item__backdrop {
+    width: 387.79px;
+    height: 87.03px;
+
+    background: #171717;
+    transform: rotate(3.06deg);
+}
+
+.cards__item__title {
+    height: 40px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 98.2%;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    color: #FFFFFF;
+    margin: 10px 0 10px 0;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards__item__title:hover {
+    background: url(./photo/background__profile.png);
+    width: 386.85px;
+    height: 60.03px;
+    left: 373.04px;
+    top: 2701.06px;
+    transform: rotate(0.06deg);
+    display: flex;
+    color: #FFFFFF;
+}
+
+.cards__item__subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190.2%;
+    text-align: center;
+    color: #171717;
+    margin-bottom: 45px;
+    
+}
+
+.cards__item__btn {
+    width: 330px;
+    height: 50px;
+    left: 396px;
+    top: 2852px;
+
+    background: #171717;
+    border-radius: 68px;
+}
+.cards__img {
+    filter: blur(80px)
+}
+.grey-image {
+    filter: grayscale(1); /* Черно-белый фильтр для изображения */
+    transition: 1s; /* Время изменения цвета изображения */
+}
+.grey-image:hover {
+    filter: grayscale(0); /* Цветное изображение при наведении */
+}
