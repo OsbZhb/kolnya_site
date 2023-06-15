@@ -58,7 +58,7 @@ const TattooSchool = () => {
                     <p>За весь курс каждый из учеников выполнит по 4 татуировки на моделях. Всё как всегда происходит под чутким руководством преподавателей индивидуально у каждого! Саша Кот также курирует каждого ученика. Подбор преподавателей для обучающегося происходит по средствам уклона на стилистику, предпочитаемую студентом.</p>
                 </div>
                 <div className="tattooSchool__btn">
-                    <button className='cards__item__btn tattooSchool'>ХОЧУ УЧИТЬСЯ!</button>    
+                    <a href="https://t.me/kolnya_school_bot" target="_blank" without rel="noreferrer"><button className='cards__item__btn tattooSchool'>ХОЧУ УЧИТЬСЯ!</button></a>    
                 </div>
                 
             </div>
