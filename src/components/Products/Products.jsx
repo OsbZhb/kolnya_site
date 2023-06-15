@@ -20,7 +20,7 @@ const Products = () => {
                         {/* <div className="products-btn">
                             <button className='cards__item__btn'>смотреть все отзывы</button>
                         </div> */}
-                        <button className='products__btn'>смотреть все отзывы</button>
+                        <a href="https://m.vk.com/market-90533026" target="_blank" rel="noreferrer"><button className='products__btn'>все товарыы</button></a>
                     </div>
                     <div className="products__showcase">
                         <div className="products__showcase-item">

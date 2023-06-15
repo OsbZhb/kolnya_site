@@ -44,9 +44,9 @@ const Header = () => {
                     >
                         <SwiperSlide>
                             <img src={logo_slider} alt="logo_slider"/>
-                            <button className='slider__btn'>
-                                <a href="#">Хочу тату!</a>
-                            </button>
+                            <a target="_blank" href="https://vk.com/kolnyaschool?from=groups">
+                                <button className='slider__btn'>Хочу тату</button>
+                            </a>
                         </SwiperSlide>
                         <SwiperSlide></SwiperSlide>
                         <SwiperSlide></SwiperSlide>

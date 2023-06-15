@@ -141,7 +141,7 @@
 }
 .grey-image {
     filter: grayscale(1); /* Черно-белый фильтр для изображения */
-    transition: 1s; /* Время изменения цвета изображения */
+    // transition: 1s;
 }
 .grey-image:hover {
     filter: grayscale(0); /* Цветное изображение при наведении */

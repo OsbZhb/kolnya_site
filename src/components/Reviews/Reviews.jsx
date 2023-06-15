@@ -43,7 +43,7 @@ const Reviews = () => {
                             <p className='item-profile__text'>Классное место, тату набил - кофе попил Рекомендую тату-мастера Полину! Второй раз у неё бил тату, и далеко не последний!</p>
                         </div>
                     </div>
-                    <button className='cards__item__btn'>смотреть все отзывы</button>
+                    <a href="https://yandex.ru/search/touch/?text=%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D1%8F&search_source=dzen_touch_safe&lr=21" target="_blank" without rel="noreferrer"><button className='cards__item__btn'>смотреть все отзывы</button></a>
                 </div>
             </div>
         </div>

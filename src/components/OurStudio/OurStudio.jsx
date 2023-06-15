@@ -24,7 +24,7 @@ const OurStudio = () => {
                 </div>
                 <div className="studio__btn">
                     <button className="vk__link">
-                        <a href="https://vk.com/kolnya">перейти в группу студии</a>
+                        <a href="https://vk.com/kolnya" target="_blank" without rel="noreferrer">перейти в группу студии</a>
                     </button>
                 </div>
             </div>

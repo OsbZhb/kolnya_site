@@ -39,17 +39,17 @@ margin-bottom: 62px;
     left: 913px;
     top: 350px;
     background: #E6BC28;
+    color: #171717;
+    
     /* drop_button */
     border-radius: 68px; 
-    a {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 192.7%;
-        text-align: center;
-        letter-spacing: 0.125em;
-        color: #171717;
-        text-transform: uppercase;
-    }
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 192.7%;
+    text-align: center;
+    letter-spacing: 0.125em;
+    color: #171717;
+    text-transform: uppercase;
 }
 
 button:hover {
