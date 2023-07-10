@@ -3,8 +3,8 @@
 }
 
 .products__block {
-    width: 1171px;
-    height: 950px;
+    max-width: 1171px;
+    // height: 950px;
     margin-bottom: 50px;
 }
 
@@ -21,6 +21,8 @@
 .products_namebox {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 .products__title {
@@ -50,12 +52,8 @@
 .products__btn {
     width: 280px;
     height: 60px;
-    
-    border: 1px solid #FFFFFF;
     border-radius: 68px;
-
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 192.7%;
@@ -63,8 +61,11 @@
 
     text-align: center;
     letter-spacing: 0.125em;
-
-    color: #FFFFFF;
+    color: #171717;
+      
+    background: #E6BC28;
+    /* drop_button */
+    border-radius: 68px;
 }
 
 .products__showcase {
@@ -72,6 +73,7 @@
     display: flex;
     justify-content: space-between;
     text-align: left;
+    flex-wrap: wrap;
     h2 {
         font-family: 'Neusa';
         font-weight: 700;

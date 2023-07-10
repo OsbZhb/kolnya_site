@@ -1,0 +1,97 @@
+.mastersProfile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+
+.masterAbout {
+    text-align: left;
+    margin-top: 30px;
+    h1 {
+        color: #FFF;
+        font-size: 64px;
+        font-family: Neusa;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 98.2%;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        span {
+            color: #E5BC28;
+        }
+    }
+}
+
+.masterName {
+    color: #FFF;
+    font-size: 40px;
+    font-family: Neusa;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 98.2%;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.mastersDescription {
+    display: flex;
+    width: 670px;
+    height: 94px;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 190.2%;
+    margin-bottom: 50px;
+}
+
+.masterGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 82px;
+    justify-content: center;
+    img {
+        width: 170px;
+        height: 210px;
+        border-radius: 10px;
+        
+    }
+}
+.masterGallery:hover {
+        img:hover {
+            box-shadow: 5px 5px 5px #da4cdf;
+    }
+}
+
+.master-social {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 27px;
+    h2  {
+        display: flex;
+        text-align: center;
+        width: 370px;
+        height: 35px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-size: 40px;
+        font-family: Neusa;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 98.2%;
+        text-transform: uppercase;
+    }
+}
+
+.socialIcon-block {
+    display: flex;
+    gap: 21px;
+    margin-bottom: 45px;
+}

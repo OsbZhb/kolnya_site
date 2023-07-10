@@ -1,0 +1,28 @@
+.sliderBlock {
+    margin-bottom: 98px;
+}
+
+.slider__btn {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    left: 913px;
+    top: 350px;
+    background: #E6BC28;
+    color: #171717;
+    
+    /* drop_button */
+    border-radius: 68px; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 192.7%;
+    text-align: center;
+    letter-spacing: 0.125em;
+    color: #171717;
+    text-transform: uppercase;
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px #da4cdf;
+   
+}

@@ -1,5 +1,6 @@
 .coffeeHouse {
-    margin-top: 50px;
+    margin-bottom: 10rem;
+    position: relative;
 }
 
 .coffeeHouse_backgroundImages {
@@ -37,7 +38,7 @@
 .coffeeHouse-title {
     font-family: 'Neusa';
     font-weight: 700;
-    font-size: 72px;
+    font-size: clamp(2.5rem, 1.773rem + 3.64vw, 4.5rem);
     line-height: 98.2%;
     text-align: center;
     text-transform: uppercase;
@@ -47,22 +48,20 @@
     }
     margin: 30px 0 60px 0;
 }
-.coffeeHouse-subtitle{
+.coffeeHouse-subtitle {
     display: flex;
-    text-align: center;
-    width: 870px;
+    /* text-align: center; */
+    max-width: clamp(25rem, 14.318rem + 53.41vw, 54.375rem);
     height: 91px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: clamp(0.75rem, 0.429rem + 1.14vw, 1rem);
     line-height: 190.2%;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 101px;
-    
 }
 .coffeeHouse__content {
-    width: 1170px;
-    height: 390px;
+    max-width: 1170px;
     border-radius: 4px;
     margin-bottom: 30px;
 
@@ -70,5 +69,50 @@
 
 .coffeeHouse__photos {
     display: flex;
-    gap: 30px;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+@media (max-width: 1000px) {
+    .coffeeHouse_backgroundImages {
+        display: none;
+        
+    }
+
+}
+@media (max-width: 1000px) {
+
+}
+
+// @media (min-width: 992px) and (max-width: 1199px) {
+// }
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 480px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    .coffeeHouse {
+        margin-bottom: 0rem;
+        position: relative;
+    }
+    .studio__description p {
+        font-family: "Inter";
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 190.2%;
+        color: #FFFFFF;
+    }
+    .vk__link a {
+        font-weight: 700;
+        font-size: clamp(0.625rem, 0.304rem + 1.14vw, 0.875rem);
+        line-height: 192.7%;
+        text-align: center;
+        letter-spacing: 0.125em;
+        color: #171717;
+        text-transform: uppercase;
+    }
+}
+@media (max-width: 320px) {
 }

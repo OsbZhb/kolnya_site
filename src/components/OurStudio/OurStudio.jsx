@@ -16,7 +16,7 @@ const OurStudio = () => {
                     <p>Тату - студия "Кольня" - лучшее место, где делают татуировки и удаляют татуировки лазером в Вологде. Приятная атмосфера, профессиональные мастера, полная стерильность, индивидуальный подход к каждому клиенту. </p>
                     <img src={photo_1} alt="photo_1" />
                 </div>
-                <img src={photo_2} alt="photo_2" />
+                <img className='photo_coffee' src={photo_2} alt="photo_2" />
             </div>
             <div className="studio__img">
                     <img src={photo_3} alt="photo_3" />
