@@ -24,7 +24,7 @@ function App() {
             <Route path="MastersPage_Lera" element={<MastersPage_Lera/>} />
             <Route path="MastersPage_LizaRemoval" element={<MastersPage_LizaRemoval/>} />
           </Routes>
-        {/* <Footer /> */}
+        <Footer />
     </div>
   );
 }
