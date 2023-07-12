@@ -1,5 +1,5 @@
 .coffeeHouse {
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
     position: relative;
 }
 
@@ -43,22 +43,44 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: Neusa;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 98.2%;
+        text-transform: uppercase;
+    }
     span {
+
+        text-align: center;
+        font-family: Neusa;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 98.2%;
+        text-transform: uppercase;
         color: #E5BC28;
     }
     margin: 30px 0 60px 0;
 }
 .coffeeHouse-subtitle {
     display: flex;
-    /* text-align: center; */
-    max-width: clamp(25rem, 14.318rem + 53.41vw, 54.375rem);
-    height: 91px;
-    font-weight: 500;
-    font-size: clamp(0.75rem, 0.429rem + 1.14vw, 1rem);
-    line-height: 190.2%;
-    text-align: center;
-    color: #FFFFFF;
     margin-bottom: 101px;
+    /* text-align: center; */
+    p {
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: clamp(0.875rem, 0.784rem + 0.45vw, 1.125rem);
+        font-style: normal;
+        font-weight: 500;
+        line-height: 190.2%;
+        max-width: clamp(25rem, 14.318rem + 53.41vw, 54.375rem);
+        // height: 91px;
+    }
 }
 .coffeeHouse__content {
     max-width: 1170px;
@@ -75,7 +97,7 @@
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .coffeeHouse_backgroundImages {
         display: none;
         

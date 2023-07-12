@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import './App.css';
 // import Header from './components/Header/Header';
-import Header_new from './components/Header/Header_new';
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import MastersPage_Katya from './components/Masters/MastersPage/MastersPage_Katya/MastersPage_Katya';
 import MastersPage_Liza from './components/Masters/MastersPage/MastersPage_Liza/MastersPage_Liza';
@@ -15,7 +15,7 @@ import GeneralComponents from './components/GeneralComponents/GeneralComponents'
 function App() {
   return (
     <div className="App">
-        <Header_new/>
+        <Header/>
         <Routes>
           <Route path="/" element={<GeneralComponents/>} />
             <Route path="MastersPage_Katya" element={<MastersPage_Katya/>} />
@@ -24,7 +24,7 @@ function App() {
             <Route path="MastersPage_Lera" element={<MastersPage_Lera/>} />
             <Route path="MastersPage_LizaRemoval" element={<MastersPage_LizaRemoval/>} />
           </Routes>
-        <Footer />
+        {/* <Footer /> */}
     </div>
   );
 }

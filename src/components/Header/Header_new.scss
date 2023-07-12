@@ -33,15 +33,15 @@ header {
     }
 }
 
-nav a {
-	margin: 0 1rem;
-	color: var(--textColor);
-	text-decoration: none;
-}
+// nav a {
+// 	margin: 0 1rem;
+// 	color: var(--textColor);
+// 	text-decoration: none;
+// }
 
-nav a:hover {
-	color: var(--secondaryColor);
-}
+// nav a:hover {
+// 	color: var(--secondaryColor);
+// }
 
 .nav-links {
 	width: 100%;
@@ -52,8 +52,8 @@ nav a:hover {
 }
 
 .nav-links {
-    :link {
-        // padding: 5px 15px; 
+    a {
+        padding: 5px 15px; 
         font-weight: 700;
         font-size: 15px;
         line-height: 18px;
@@ -63,12 +63,10 @@ nav a:hover {
 
 }
 
-.nav-links:hover {
-    :link {
+.nav-links a:hover {
         cursor: pointer;
         background: #E6BC28;
         border-radius: 42px;
-    }
 
 }
 

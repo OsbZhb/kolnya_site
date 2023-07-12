@@ -37,15 +37,15 @@ const TattooSchool = () => {
                     <div className="tattooSchool_box">
                         <div className="tattooSchool_item">
                             <img src={img_1} alt="#" />
-                            <p>более 250 <span>учеников</span></p>
+                            <p>более 250 <br /> <span>учеников</span></p>
                         </div>
                         <div className="tattooSchool_item">
                             <img src={img_2} alt="#" />
-                            <p>с 2018 г. <span>обучаем тату</span></p>  
+                            <p>с 2018 г. <br /> <span>обучаем тату</span></p>  
                         </div>
                         <div className="tattooSchool_item">
                             <img src={img_3} alt="#" />
-                            <p>СО ВСЕГО МИРА<br /><span>к нам едут ученики</span></p>
+                            <p>СО ВСЕГО МИРА <br /><span>к нам едут ученики</span></p>
                         </div>
                     </div>
                     <div className="tattooSchool_videos">

@@ -15,7 +15,7 @@ const Products = () => {
                     </div>
                     <div className="products_namebox">
                         <div className="products__subtitle">
-                            <p>Тату - студия "Кольня" - лучшее место, где делают татуировкии удаляют татуировки лазером в Вологде. </p>
+                            <p>Тату - студия "Кольня" - лучшее место, где делают татуировкии <br /> и удаляют татуировки лазером в Вологде. </p>
                         </div>
                         {/* <div className="products-btn">
                             <button className='cards__item__btn'>смотреть все отзывы</button>

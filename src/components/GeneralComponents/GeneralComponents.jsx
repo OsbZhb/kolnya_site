@@ -22,7 +22,7 @@ const GeneralComponents = () => {
         <CoffeeHouse />
         <TattooSchool />
         <Products />
-        {/* <Questions /> */}
+        <Questions />
         </>
      );
 }

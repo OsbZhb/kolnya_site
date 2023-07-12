@@ -32,11 +32,13 @@ const Questions = () => {
                         <div className="accordion__block-one">
                             <AccordionComp />
                         </div>
-                        <div className="accordion__block-one">
+                        <div className="accordion__block-two">
                             <AccordionComp />
                         </div>
                     </div>
-                    <button className='questions__btn'>ПОКАЗАТЬ БОЛЬШЕ</button>
+                    <div className="blockQuestions__btn">
+                        <button className='questions__btn'>ПОКАЗАТЬ БОЛЬШЕ</button>
+                    </div>
                     <div className="contact">
                     <div className="contact__title">
                         <h1>КОНТАКТЫ</h1>
@@ -94,7 +96,7 @@ const Questions = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                    </div>
                 </div>
             </div>
         </div>

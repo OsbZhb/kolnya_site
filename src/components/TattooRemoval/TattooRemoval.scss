@@ -45,20 +45,34 @@
 }
 
 .tattooRemoval__title {
-    font-family: 'Neusa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: clamp(2.5rem, 1.773rem + 3.64vw, 4.5rem);
-    line-height: 98.2%;
-    /* or 71px */
-    text-align: start;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
-    span {
-        color: #E5BC28;
+
+    h2 {
+        font-family: 'Neusa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: clamp(2.5rem, 1.773rem + 3.64vw, 4.5rem);
+        line-height: 98.2%;
+        /* or 71px */
+        text-align: start;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+        span {
+            font-family: 'Neusa';
+            font-style: normal;
+            font-weight: 700;
+            font-size: clamp(2.5rem, 1.773rem + 3.64vw, 4.5rem);
+            line-height: 98.2%;
+            /* or 71px */
+            text-align: start;
+            text-transform: uppercase;
+            color: #E6BC28;
+        }
     }
+
+      
 }
+
 
 .tattooRemoval__subtitle {
         text-align: start;
@@ -83,7 +97,6 @@
     
     
 }
-
 .tattooRemoval__item {
     list-style-type: disc;
     font-family: 'Inter';
@@ -91,11 +104,10 @@
     font-weight: 500;
     font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
     line-height: 245.7%;
-    /* or 44px */
-
-
     color: #FFFFFF;
-
+}
+.tattooRemoval__item::marker {
+    color: #E6BC28;
 }
 
 

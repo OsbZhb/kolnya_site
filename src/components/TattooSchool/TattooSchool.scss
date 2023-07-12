@@ -4,7 +4,7 @@
 
 .tattooSchool__wrapper-background {
     display: flex;
-    width: 1710px;
+    // width: 1710px;
     // height: 1394px;
     position: absolute;
 
@@ -76,13 +76,23 @@
     text-transform: uppercase;
     color: #171717;
     margin-bottom: 80px;
+    h1 {
+        color: #171717;
+        text-align: center;
+        font-family: Neusa;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 98.2%;
+        text-transform: uppercase;
+    }
 }
 
 .tattooSchool_box {
     // position: absolute;
     position: relative;
     display: flex;
-    max-width: 1170px;
+    // max-width: 1170px;
     // height: 89px;
     justify-content: space-between;
     align-items: center;
@@ -97,19 +107,30 @@
     gap: 20px;
     font-family: 'Neusa';
     font-weight: 700;
-    font-size: clamp(1.25rem, 0.614rem + 3.18vw, 3rem);
+    font-size: 48px;
+    line-height: 100.2%;
+    text-transform: uppercase;
+    text-align: left;
+    color: #171717;
+}
+
+.tattooSchool_item p {
+    font-family: 'Neusa';
+    font-weight: 700;
+    font-size: 38px;
     line-height: 100.2%;
     text-transform: uppercase;
     text-align: left;
     color: #171717;
     span {
-        font-size: 37px;
+        font-size: 1.7rem;
+        text-transform: uppercase;
         // width: 300px;
     }
 }
 
 .tattooSchool_item:last-child {
-    width: 450px;
+    width: 400px;
 }
 
 .tattooSchool_videos {
@@ -125,15 +146,18 @@
 }
 
 .tattooSchool_text {
-    max-width: 1160px;
-    position: relative;
+    width: 100%;
     margin-top: 40px;
-    font-weight: 500;
-    font-size: clamp(0.75rem, 0.429rem + 1.14vw, 1rem);
-    line-height: 216.2%;
-    text-align: center;
-    color: #171717;
     padding: 0 15px;
+    p {
+        color: #171717;
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 216.2%;
+    }
 }
 
 .tattooSchool__btn {
@@ -209,4 +233,51 @@
         padding-bottom: 50px;
     }
 
+}
+
+// @media (min-width: 992px) and (max-width: 1199px) {
+// }
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 480px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    .tattooSchool__title h1{
+        position: relative;
+        font-family: "Neusa";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 98.2%;
+        text-transform: uppercase;
+        color: #171717;
+    }
+    .tattooSchool_videos {
+        display: flex;
+        justify-content: space-between;
+        max-width: 90%;
+        margin-top: 50px;
+        gap: 15px;
+        flex-wrap: wrap;
+        img {
+            // max-width: 70%;
+        }
+    }
+    .tattooSchool_text p {
+        color: #171717;
+        text-align: left;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 216.2%;
+    }
+    .tattooSchool__btn {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 320px) {
 }

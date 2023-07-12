@@ -8,6 +8,11 @@ import photo_4 from './photo/photo_4.png';
 import photo_5 from './photo/photo_5.png';
 import bg from './photo/bg.png';
 
+
+const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
+
 const Masters = () => {
     return ( 
         <div className="masters">
@@ -33,7 +38,7 @@ const Masters = () => {
                                     СМОТРЕТЬ ПОРТФОЛИО
                                 </button>
                             </a> */}
-                            <Link to="/MastersPage_Katya">
+                            <Link onClick={scrollToTop} to="/MastersPage_Katya">
                                 <button className='cards__item__btn'>
                                     СМОТРЕТЬ ПОРТФОЛИО
                                 </button>
@@ -43,7 +48,7 @@ const Masters = () => {
                             <img className='cards__img grey-image' src={photo_2} alt="#" />
                             <h2 className='cards__item__title'><span>ЕЛИЗАВЕТА ПЕТРОВА</span></h2>
                             <p className='cards__item__subtitle'>Мастер художественной татуировки</p>
-                            <Link to="/MastersPage_Liza">
+                            <Link onClick={scrollToTop} to="/MastersPage_Liza">
                                 <button className='cards__item__btn'>
                                     СМОТРЕТЬ ПОРТФОЛИО
                                 </button>
@@ -53,7 +58,7 @@ const Masters = () => {
                             <img className='cards__img grey-image' src={photo_3} alt="#" />
                             <h2 className='cards__item__title'><span>ПОЛИНА ГАМОВА</span></h2>
                             <p className='cards__item__subtitle'>Мастер художественной татуировки</p>
-                            <Link to="/MastersPage_Polina">
+                            <Link onClick={scrollToTop} to="/MastersPage_Polina">
                                 <button className='cards__item__btn'>
                                     СМОТРЕТЬ ПОРТФОЛИО
                                 </button>
@@ -63,7 +68,7 @@ const Masters = () => {
                             <img className='cards__img grey-image' src={photo_4} alt="#" />
                             <h2 className='cards__item__title'><span>Лера Невзорова</span></h2>
                             <p className='cards__item__subtitle'>Мастер художественной татуировки</p>
-                            <Link to="/MastersPage_Lera">
+                            <Link onClick={scrollToTop} to="/MastersPage_Lera">
                                 <button className='cards__item__btn'>
                                     СМОТРЕТЬ ПОРТФОЛИО
                                 </button>
@@ -73,7 +78,7 @@ const Masters = () => {
                             <img className='cards__img grey-image' src={photo_5} alt="#" />
                             <h2 className='cards__item__title'><span>ЕЛИЗАВЕТА ГРОМОВА</span></h2>
                             <p className='cards__item__subtitle'>Мастер художественной татуировки</p>
-                            <Link to="/MastersPage_LizaRemoval">
+                            <Link onClick={scrollToTop} to="/MastersPage_LizaRemoval">
                                 <button className='cards__item__btn'>
                                     СМОТРЕТЬ ПОРТФОЛИО
                                 </button>
@@ -83,7 +88,7 @@ const Masters = () => {
                             <img className='cards__img grey-image' src={photo_5} alt="#" />
                             <h2 className='cards__item__title'><span>САША КОТ</span></h2>
                             <p className='cards__item__subtitle'>Мастер художественной татуировки</p>
-                            <Link to="/MastersPage_LizaRemoval">
+                            <Link onClick={scrollToTop} to="/MastersPage_LizaRemoval">
                                 <button className='cards__item__btn'>
                                     СМОТРЕТЬ ПОРТФОЛИО
                                 </button>

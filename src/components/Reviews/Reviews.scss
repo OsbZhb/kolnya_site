@@ -13,17 +13,20 @@
 .reviews-title {
     padding-top: 10rem;
     margin-bottom: 30px;
-    font-family: 'Neusa';
-    font-style: normal;
-    font-weight: 700;
-    font-size: clamp(2.5rem, 1.773rem + 3.64vw, 4.5rem);
-    line-height: 98.2%;
-    /* identical to box height, or 71px */
-    
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: #171717;
+    h1 {
+        font-family: 'Neusa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: clamp(2.5rem, 1.773rem + 3.64vw, 4.5rem);
+        line-height: 98.2%;
+        /* identical to box height, or 71px */
+        
+        text-align: center;
+        text-transform: uppercase;
+        
+        color: #171717;
+    }
+
 }
 
 .reviews-subtitle {
@@ -91,6 +94,14 @@
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    h2 {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 190.2%;
+    }
 
 }
 
@@ -169,6 +180,10 @@
         font-size: 12px;
         line-height: 190.2%;
         color: #FFFFFF;
+    }
+    .reviews__btn {
+        display: flex;
+        
     }
 }
 @media (max-width: 320px) {

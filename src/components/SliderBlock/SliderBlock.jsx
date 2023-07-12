@@ -25,7 +25,7 @@ const SliderBlock = () => {
                         >
                             <SwiperSlide>
                                 <img src={logo_slider} alt="logo_slider"/>
-                                <a target="_blank" href="https://vk.com/kolnyaschool?from=groups">
+                                <a target="_blank" href="https://vk.com/kolnya">
                                     <button className='slider__btn'>Хочу тату</button>
                                 </a>
                             </SwiperSlide>

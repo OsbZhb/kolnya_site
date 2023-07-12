@@ -9,13 +9,17 @@
 }
 
 .products__title {
-    font-family: 'Neusa';
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 98.2%;
-    text-transform: uppercase;
-    color: #FFFFFF;
     margin-bottom: 30px;
+    h1 {
+        color: #FFF;
+        font-family: Neusa;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 98.2%;
+        text-transform: uppercase;
+    }
+    
 }
 
 .products_namebox {
@@ -40,12 +44,14 @@
 
 .products__subtitle {
     text-align: start;
-    width: 570px;
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 195%;
-    color: #FFFFFF;
+    p {
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 195%;
+        color: #FFFFFF;
+    }
+
 }
 
 
@@ -58,7 +64,7 @@
     font-size: 16px;
     line-height: 192.7%;
     /* identical to box height, or 31px */
-
+    text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.125em;
     color: #171717;
@@ -103,3 +109,44 @@
     flex-direction: column;
     gap: 30px;
 }
+
+// @media (min-width: 992px) and (max-width: 1199px) {
+// }
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 480px) and (max-width: 767px) {
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    .products__showcase {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+    .products__title {
+        font-family: "Neusa";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 98.2%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .products_namebox {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .products__subtitle {
+        /* text-align: start; */
+        display: flex;
+        text-align: center;
+    }
+}
+@media (max-width: 320px) {
+}
+
