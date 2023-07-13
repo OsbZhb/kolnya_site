@@ -105,6 +105,11 @@
     font-size: clamp(0.625rem, 0.443rem + 0.91vw, 1.125rem);
 }
 
+.item {
+    margin-bottom: 15px;
+    max-width: clamp(12.5rem, 5.682rem + 34.09vw, 31.25rem);
+}
+
 // 2 БЛОК
 
 // .szh-accordion__item.szh-accordion__item--status-entered.szh-accordion__item--expanded.styles_item__qpkNO {
