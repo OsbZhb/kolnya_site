@@ -14,7 +14,7 @@ import yaMaps from './photo/logo/yaMaps.png'
 
 const Questions = () => {
     return ( 
-        <div className="questions">
+        <div className="questions" id='questions'>
             <div className="questions__wrapper-background">
                 {/* <img className='questions_image' src={questions_img} alt="#" /> */}
                 <div className="container">
@@ -39,7 +39,7 @@ const Questions = () => {
                     <div className="blockQuestions__btn">
                         <button className='questions__btn'>ПОКАЗАТЬ БОЛЬШЕ</button>
                     </div>
-                    <div className="contact">
+                    <div className="contact" id='contact'>
                     <div className="contact__title">
                         <h1>КОНТАКТЫ</h1>
                     </div>

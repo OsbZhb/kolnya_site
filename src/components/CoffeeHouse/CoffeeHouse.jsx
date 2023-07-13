@@ -10,7 +10,7 @@ import coffeeTumbler from './photo/img_3.png';
 
 const CoffeeHouse = () => {
     return ( 
-        <div className="coffeeHouse">
+        <div className="coffeeHouse" id='coffeHouse'>
             <div className="container">
             <div className="coffeeHouse_backgroundImages">
                 <img className='img__pie' src={pie} alt="#" />

@@ -15,7 +15,7 @@ const scrollToTop = () => {
 
 const Masters = () => {
     return ( 
-        <div className="masters">
+        <div className="masters" id='masters'>
             <div className="yallow__wrapper">
                     {/* <div className="yallow-background">
                         <img src={bg} alt="#" />

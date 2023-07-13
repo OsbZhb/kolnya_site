@@ -7,7 +7,7 @@ import img_4 from './photo/img_4.png';
 
 const Products = () => {
     return ( 
-        <div className="products">
+        <div className="products" id='products'>
             <div className="container">
                 <div className="products__block">
                     <div className="products__title">

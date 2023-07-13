@@ -1,5 +1,6 @@
 import logo from '../Header/logo.png'
 
+// import { Link } from 'react-scroll'
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
@@ -31,28 +32,28 @@ const Header = () => {
                         </div>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
                             <li className='nav-item'>
-                                <a href='#about' onClick={closeMenu}>наша студия</a>
+                                <a href='#ourStudio' onClick={closeMenu}>наша студия</a>
                             </li>
                             <li className='nav-item'>
-                                <a href='' onClick={closeMenu}>мастера</a>
+                                <a href='#masters' onClick={closeMenu}>мастера</a>
                             </li>
                             <li className='nav-item'>
-                                <a href='#testimonials' onClick={closeMenu}>отзывы</a>
+                                <a href='#reviews' onClick={closeMenu}>отзывы</a>
                             </li>
                             <li className='nav-item'>
-                                <a href='#demo' onClick={closeMenu}>наша кофейня</a>
+                                <a href='#coffeHouse' onClick={closeMenu}>наша кофейня</a>
                             </li>
                             <li className='nav-item'>
-                                <a href='#demo' onClick={closeMenu}>обучение</a>
+                                <a href='#tattoSchool' onClick={closeMenu}>обучение</a>
                             </li>
                             <li className='nav-item'>
-                                <a href='#demo' onClick={closeMenu}>товары</a>
+                                <a href='#products' onClick={closeMenu}>товары</a>
                             </li>
                             <li className='nav-item'>
-                                <a href='#demo' onClick={closeMenu}>FAQ</a>
+                                <a href='#questions' onClick={closeMenu}>FAQ</a>
                             </li>
                             <li className='nav-item'>
-                                <a href='#demo' onClick={closeMenu}>контакты</a>
+                                <a href='#contact' onClick={closeMenu}>контакты</a>
                             </li>
                         </ul>
                     </nav>

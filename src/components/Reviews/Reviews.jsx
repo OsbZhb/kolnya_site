@@ -4,7 +4,7 @@ import profile from './photo/profile.png';
 
 const Reviews = () => {
     return ( 
-        <div className="reviews">
+        <div className="reviews" id='reviews'>
                 <div className="yallow__wrapper-background">
                     {/* <div className="reviews-background">
                         <img src={yallow_background} alt="#" />
