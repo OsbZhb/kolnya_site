@@ -179,7 +179,6 @@
 }
 .contact__block {
     max-width: 371px;
-    height: auto;
     font-weight: 500;
     font-size: 18px;
     line-height: 190.2%;
@@ -188,10 +187,10 @@
 }
 
 .contact__subtitle {
-    max-width: 371px;
+    // max-width: 371px;
     // height: 57px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: clamp(0.875rem, 0.784rem + 0.45vw, 1.125rem);
     line-height: 190.2%;
     color: #171717;
     margin-bottom: 75px;

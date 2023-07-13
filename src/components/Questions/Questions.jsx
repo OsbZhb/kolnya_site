@@ -45,7 +45,7 @@ const Questions = () => {
                     </div>
                     <div className="contact__full">
                         <div className="contact__block">
-                            <p className='contact__subtitle'>Мы доступны практически 24/7, пишите и звоните в любое время!</p>
+                            <p className='contact__subtitle'>Мы доступны практически 24/7, пишите <br /> и звоните в любое время!</p>
                             <div className="contact__number">
                                 <p className='contact__number__text'>телефон</p>
                                 <div className="number__block">
