@@ -39,7 +39,7 @@ const Questions = () => {
                     <div className="blockQuestions__btn">
                         <button className='questions__btn'>ПОКАЗАТЬ БОЛЬШЕ</button>
                     </div>
-                    <div className="contact">
+                    {/* <div className="contact">
                     <div className="contact__title">
                         <h1>КОНТАКТЫ</h1>
                     </div>
@@ -96,7 +96,7 @@ const Questions = () => {
                             </div>
                         </div>
                     </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
