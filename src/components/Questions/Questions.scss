@@ -57,13 +57,15 @@
 
 .questions__subtitle {
     display: flex;
-    max-width: 630px;
-    font-weight: 500;
-    font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
-    line-height: 190.2%;
     text-align: center;
-    color: #171717;
-    text-align: center;
+    max-width: 600px;
+    p {
+        font-weight: 500;
+        font-size: clamp(0.5rem, 0.273rem + 1.14vw, 1.125rem);
+        line-height: 190.2%;
+        color: #171717;
+    }
+
 }
 
 // НАСТРОЙКА И АДДАПТИВ АККАРДИОНА
