@@ -69,18 +69,15 @@
 // НАСТРОЙКА И АДДАПТИВ АККАРДИОНА
 
 .accordion__block {
-    width: 100%;
-    // max-width: 1000px;
-    // height: 400px;
-    // gap: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 35px;
+    gap: 20px;
 }
 
 .accordion__block-one {
-    width: 100%;
+    // width: 100%;
     display: flex;
     justify-content: center;
     // height: 100px;
@@ -154,28 +151,34 @@
 
 .contact {
     max-width: 1170px;
-    height: 450px;
+    // max-height: 450px;
 
   }
 
 
 
 .contact__title {
-    font-family: 'Neusa';
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 98.2%;
-    text-transform: uppercase;
-    color: #171717;
-    text-align: left;
+    max-width: 400px;
     margin-bottom: 30px;
+    h1 {
+        font-family: 'Neusa';
+        font-weight: 700;
+        font-size: clamp(3.5rem, 2.591rem + 4.55vw, 6rem);
+        line-height: 98.2%;
+        text-transform: uppercase;
+        color: #171717;
+        text-align: left;
+    }
 }
 .contact__full {
     display: flex;
-    gap: 240px;
+    flex-wrap: wrap;
+    /* gap: 240px; */
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 .contact__block {
-    width: 371px;
+    max-width: 371px;
     height: auto;
     font-weight: 500;
     font-size: 18px;
@@ -185,8 +188,8 @@
 }
 
 .contact__subtitle {
-    width: 371px;
-    height: 57px;
+    max-width: 371px;
+    // height: 57px;
     font-weight: 500;
     font-size: 18px;
     line-height: 190.2%;
@@ -198,7 +201,7 @@
     font-family: 'Neusa';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
     line-height: 98.2%;
     /* identical to box height, or 20px */
     
@@ -214,7 +217,7 @@
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 36px;
+        font-size: clamp(1.625rem, 1.398rem + 1.14vw, 2.25rem);
         line-height: 190.2%;
         color: #171717;
     }
@@ -222,16 +225,17 @@
 
 .contact__info {
     display: flex;
-    width: 512px;
+    max-width: 512px;
     height: auto;
     gap: 100px;
+    flex-wrap: wrap;
 }
 
 .info__blockOne,
 .info__blockTwo {
     display: flex;
     width: 164px;
-    height: 69px;
+    // height: 69px;
     gap: 80px;
     flex-direction: column;
     
@@ -240,7 +244,7 @@
 .info__item {
     display: flex;
     width: 270px;
-    height: 86px;
+    // height: 86px;
     gap: 10px;
     flex-direction: column;
     align-items: flex-start;
