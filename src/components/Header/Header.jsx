@@ -18,7 +18,7 @@ const Header = () => {
     const closeMenu = () => setClick(false)
 
     return (
-        <header className="header">
+        <header className="header" id='header'>
             <div className="container">
                 <div className='header__block'>
                     <nav className='navbar'>

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 85px;
+    flex-wrap: wrap;
 }
 
 
@@ -10,7 +11,7 @@
     margin-top: 30px;
     h1 {
         color: #FFF;
-        font-size: 64px;
+        font-size: clamp(2.5rem, 1.955rem + 2.73vw, 4rem);
         font-family: Neusa;
         font-style: normal;
         font-weight: 700;
@@ -36,11 +37,11 @@
 
 .mastersDescription {
     display: flex;
-    width: 670px;
+    max-width: 670px;
     height: 94px;
     flex-direction: column;
     color: #FFF;
-    font-size: 18px;
+    font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
