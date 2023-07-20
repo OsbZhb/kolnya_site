@@ -17,6 +17,10 @@ const Header = () => {
 
     const closeMenu = () => setClick(false)
 
+    const ourStudioScroll = () => {
+        
+    }
+
     return (
         <header className="header" id='header'>
             <div className="container">
@@ -32,28 +36,28 @@ const Header = () => {
                         </div>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
                             <li className='nav-item'>
-                                <a href='#ourStudio' onClick={closeMenu}>наша студия</a>
+                                <Link to="/ourStudio" href='#ourStudio' onClicked={ourStudioScroll} onClick={closeMenu}>наша студия</Link>
                             </li>
                             <li className='nav-item'>
-                                <a href='#masters' onClick={closeMenu}>мастера</a>
+                                <Link to="/" href='#masters' onClick={closeMenu}>мастера</Link>
                             </li>
                             <li className='nav-item'>
-                                <a href='#reviews' onClick={closeMenu}>отзывы</a>
+                                <Link to="/" href='#reviews' onClick={closeMenu}>отзывы</Link>
                             </li>
                             <li className='nav-item'>
-                                <a href='#coffeHouse' onClick={closeMenu}>наша кофейня</a>
+                                <Link to="/" href='#coffeHouse' onClick={closeMenu}>наша кофейня</Link>
                             </li>
                             <li className='nav-item'>
-                                <a href='#tattoSchool' onClick={closeMenu}>обучение</a>
+                                <Link to="/" href='#tattoSchool' onClick={closeMenu}>обучение</Link>
                             </li>
                             <li className='nav-item'>
-                                <a href='#products' onClick={closeMenu}>товары</a>
+                                <Link to="/" href='#products' onClick={closeMenu}>товары</Link>
                             </li>
                             <li className='nav-item'>
-                                <a href='#questions' onClick={closeMenu}>FAQ</a>
+                                <Link to="/" href='#questions' onClick={closeMenu}>FAQ</Link>
                             </li>
                             <li className='nav-item'>
-                                <a href='#contact' onClick={closeMenu}>контакты</a>
+                                <Link to="/" href='#contact' onClick={closeMenu}>контакты</Link>
                             </li>
                         </ul>
                     </nav>

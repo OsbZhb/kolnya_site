@@ -17,6 +17,7 @@ body {
     /* background-color: #171717; */
     background: url(./assets/background_site.png) #171717;
     color: #ffffff;
+    overflow-x: hidden;
   }
   .container {
     max-width: 1180px;
