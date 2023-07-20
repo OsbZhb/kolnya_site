@@ -17,9 +17,6 @@ body {
     /* background-color: #171717; */
     background: url(./assets/background_site.png) #171717;
     color: #ffffff;
-    overflow-x: hidden;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
   }
   .container {
     max-width: 1180px;
