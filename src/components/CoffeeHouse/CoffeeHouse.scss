@@ -64,9 +64,10 @@
         text-transform: uppercase;
         color: #E5BC28;
     }
-    margin: 30px 0 60px 0;
+    margin: 30px 0 30px 0;
 }
 .coffeeHouse-subtitle {
+    max-width: clamp(21.875rem, 12.33rem + 47.73vw, 48.125rem);
     display: flex;
     margin-bottom: 101px;
     /* text-align: center; */
@@ -78,7 +79,7 @@
         font-style: normal;
         font-weight: 500;
         line-height: 190.2%;
-        max-width: clamp(25rem, 14.318rem + 53.41vw, 54.375rem);
+        
         // height: 91px;
     }
 }

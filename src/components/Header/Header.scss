@@ -80,8 +80,11 @@
 @media screen and (max-width:1040px) {
 
     .header {
+        position: sticky;
+        top: 0;
         background: url(../../assets/background_site.png) #171717;
         padding-bottom: 5vh;
+        
 }
     .header__block {
         display: flex;

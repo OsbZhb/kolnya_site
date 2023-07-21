@@ -17,17 +17,13 @@ const Header = () => {
 
     const closeMenu = () => setClick(false)
 
-    const ourStudioScroll = () => {
-        
-    }
-
     return (
         <header className="header" id='header'>
             <div className="container">
                 <div className='header__block'>
                     <nav className='navbar'>
                         <a href='/' className='logo'>
-                            <img src={logo} alt='logo' />
+                            <img src={logo} alt='logo' /> 
                         </a>
                         <div className='hamburger' onClick={handleClick}>
                             {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
@@ -36,28 +32,28 @@ const Header = () => {
                         </div>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
                             <li className='nav-item'>
-                                <Link to="/ourStudio" href='#ourStudio' onClicked={ourStudioScroll} onClick={closeMenu}>наша студия</Link>
+                                <a href='#ourStudio' onClick={closeMenu}>наша студия</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/" href='#masters' onClick={closeMenu}>мастера</Link>
+                                <a to="/" href='#masters' onClick={closeMenu}>мастера</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/" href='#reviews' onClick={closeMenu}>отзывы</Link>
+                                <a to="/" href='#reviews' onClick={closeMenu}>отзывы</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/" href='#coffeHouse' onClick={closeMenu}>наша кофейня</Link>
+                                <a to="/" href='#coffeHouse' onClick={closeMenu}>наша кофейня</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/" href='#tattoSchool' onClick={closeMenu}>обучение</Link>
+                                <a to="/" href='#tattoSchool' onClick={closeMenu}>обучение</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/" href='#products' onClick={closeMenu}>товары</Link>
+                                <a to="/" href='#products' onClick={closeMenu}>товары</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/" href='#questions' onClick={closeMenu}>FAQ</Link>
+                                <a to="/" href='#questions' onClick={closeMenu}>FAQ</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/" href='#contact' onClick={closeMenu}>контакты</Link>
+                                <a to="/" href='#contact' onClick={closeMenu}>контакты</a>
                             </li>
                         </ul>
                     </nav>

@@ -148,7 +148,7 @@
 .tattooSchool_text {
     width: 100%;
     margin-top: 40px;
-    padding: 0 15px;
+    // padding: 0 15px;
     p {
         color: #171717;
         text-align: center;
@@ -161,17 +161,23 @@
 }
 
 .tattooSchool__btn {
-    // max-width: 330px;
-    // position: relative;
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    a {
-    width: 330px;
-    height: 60px;
-    border-radius: 68px;
+    button {
+        width: 330px;
+        height: 60px;
+        background: #1E1E1E;
+        border-radius: 68px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: clamp(0.75rem, 0.429rem + 1.14vw, 1rem);
+        line-height: 192.7%;
+        text-align: center;
+        letter-spacing: 0.125em;
+        color: #FFFFFF;
+        margin-bottom: 10rem;
     }
-    margin-bottom: 150px;
 }
 
 @media (max-width: 1000px) {
