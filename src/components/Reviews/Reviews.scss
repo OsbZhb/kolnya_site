@@ -71,7 +71,7 @@
 }
 
 .reviews__block {
-    
+    width: clamp(21.875rem,3.239rem + 93.18vw,73.125rem);
     display: flex;
     gap: 20px;
     margin-bottom: 70px;
