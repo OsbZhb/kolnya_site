@@ -73,8 +73,8 @@
 .reviews__block {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    /* gap: 20px; */
+    justify-content: space-between;
     margin-bottom: 70px;
 }
 
@@ -83,9 +83,9 @@
     border: 1px solid #282828;
     border-radius: 4px;
     height: 290px;
-    max-width: clamp(15.625rem,14.489rem + 5.68vw,18.75rem);
+    width: 370px;
     padding: 30px;
-    text-align: start;    
+    text-align: start;  
 }
 
 .reviews__item-profile {
@@ -117,8 +117,10 @@
     color: #FFFFFF;
 }
 
-
-
+.reviews__btn {
+    display: flex;
+    justify-content: center;
+}
 
 .review__item__btn {
     width: 330px;
