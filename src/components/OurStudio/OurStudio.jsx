@@ -8,7 +8,7 @@ import photo_4 from './photo/photo_4.png'
 
 const OurStudio = () => {
     return ( 
-        <div className="ourStudio" id='ourStudio'>
+        <div className="ourStudio" href='/' id='ourStudio'>
         <div className="container">
             <div className="studio_block">
                 <div className="studio__description">

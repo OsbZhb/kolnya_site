@@ -1,13 +1,20 @@
 import logo from '../Header/logo.png'
 
-// import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll';
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-
-import './Header.scss'
 import { Link } from 'react-router-dom';
+import { animateScroll as scroll, scroller } from 'react-scroll';
+import './Header.scss'
+import OurStudio from '../OurStudio/OurStudio';
 
-
+const scrollTo = (id) => {
+    scroller.scrollTo(id, {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    });
+  };
 
 
 const Header = () => {
@@ -16,6 +23,14 @@ const Header = () => {
     const handleClick = () => setClick(!click)
 
     const closeMenu = () => setClick(false)
+
+    const scrollTo = (ourStudio) => {
+        scroller.scrollTo(ourStudio, {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart'
+        });
+      };
 
     return (
         <header className="header" id='header'>
@@ -32,28 +47,28 @@ const Header = () => {
                         </div>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
                             <li className='nav-item'>
-                                <a href='#ourStudio' onClick={closeMenu}>наша студия</a>
+                                <Link to='/#ourStudio' onClick={() => scrollTo('ourStudio')} smooth={true} duration={500} onClick={closeMenu}>наша студия</Link>
                             </li>
                             <li className='nav-item'>
-                                <a to="/" href='#masters' onClick={closeMenu}>мастера</a>
+                                <Link to="/#masters" smooth={true} duration={500} onClick={closeMenu}>мастера</Link>
                             </li>
                             <li className='nav-item'>
-                                <a to="/" href='#reviews' onClick={closeMenu}>отзывы</a>
+                                <Link to="/#reviews" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>отзывы</Link>
                             </li>
                             <li className='nav-item'>
-                                <a to="/" href='#coffeHouse' onClick={closeMenu}>наша кофейня</a>
+                                <Link to="/#coffeHouse" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>наша кофейня</Link>
                             </li>
                             <li className='nav-item'>
-                                <a to="/" href='#tattoSchool' onClick={closeMenu}>обучение</a>
+                                <Link to="/#tattoSchool" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>обучение</Link>
                             </li>
                             <li className='nav-item'>
-                                <a to="/" href='#products' onClick={closeMenu}>товары</a>
+                                <Link to="/#products" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>товары</Link>
                             </li>
                             <li className='nav-item'>
-                                <a to="/" href='#questions' onClick={closeMenu}>FAQ</a>
+                                <Link to="/#questions" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>FAQ</Link>
                             </li>
                             <li className='nav-item'>
-                                <a to="/" href='#contact' onClick={closeMenu}>контакты</a>
+                                <Link to="/#contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>контакты</Link>
                             </li>
                         </ul>
                     </nav>

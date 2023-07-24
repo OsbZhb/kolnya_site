@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet } from 'react-router-dom';
+// import { Outlet } from 'react-router-dom';
 
 import SliderBlock from '../SliderBlock/SliderBlock';
 import OurStudio from '../OurStudio/OurStudio';

@@ -15,7 +15,7 @@ import GeneralComponents from './components/GeneralComponents/GeneralComponents'
 function App() {
   return (
     <div className="App">
-        <Header/>
+        <Header path='/'/>
         <Routes>
           <Route path="/" element={<GeneralComponents/>} />
             <Route path="MastersPage_Katya" element={<MastersPage_Katya/>} />
