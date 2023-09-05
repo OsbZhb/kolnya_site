@@ -35,7 +35,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+    font-size: clamp(1rem, 0.955rem + 0.23vw, 1.125rem);
     line-height: 190.2%;
     text-align: center;
     color: #171717;
@@ -110,7 +110,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: clamp(0.5rem, 0.318rem + 0.91vw, 1rem);
+    font-size: 16px;
     line-height: 190.2%;
     /* or 30px */
 
@@ -180,7 +180,7 @@
         font-family: "Inter";
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 190.2%;
         color: #FFFFFF;
     }

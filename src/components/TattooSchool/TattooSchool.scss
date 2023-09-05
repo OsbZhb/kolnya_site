@@ -71,7 +71,7 @@
     font-family: 'Neusa';
     font-style: normal;
     font-weight: 700;
-    font-size: clamp(2.188rem, 0.801rem + 6.93vw, 6rem);
+    font-size: clamp(2.25rem, 0.886rem + 6.82vw, 6rem);
     line-height: 98.2%;
     text-transform: uppercase;
     color: #171717;
@@ -79,8 +79,8 @@
     h1 {
         color: #171717;
         text-align: center;
-        font-family: Neusa;
-        font-size: 96px;
+        font-family: 'Neusa';
+        font-size: clamp(2.25rem, 0.886rem + 6.82vw, 6rem);
         font-style: normal;
         font-weight: 700;
         line-height: 98.2%;
@@ -89,14 +89,11 @@
 }
 
 .tattooSchool_box {
-    // position: absolute;
     position: relative;
     display: flex;
-    // max-width: 1170px;
-    // height: 89px;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .tattooSchool_item {
@@ -192,7 +189,7 @@
         // height: 89px;
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 40px;
         font-family: 'Neusa';
         font-weight: 700;
         font-size: clamp(1.25rem, 0.614rem + 3.18vw, 3rem);
@@ -253,7 +250,7 @@
         font-family: "Neusa";
         font-style: normal;
         font-weight: 700;
-        font-size: 48px;
+        font-size: 36px;
         line-height: 98.2%;
         text-transform: uppercase;
         color: #171717;
@@ -271,10 +268,9 @@
     }
     .tattooSchool_text p {
         color: #171717;
-        text-align: left;
-        font-family: Inter;
-        font-size: 14px;
-        font-style: normal;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 16px;
         font-weight: 500;
         line-height: 216.2%;
     }
@@ -283,6 +279,14 @@
         display: flex;
         justify-content: center;
         padding-bottom: 50px;
+    }
+    .tattooSchool_box {
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-left: 1rem;
     }
 }
 @media (max-width: 320px) {

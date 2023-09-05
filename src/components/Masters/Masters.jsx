@@ -84,7 +84,7 @@ const Masters = () => {
                                 </button>
                             </Link>
                         </div>
-                        <div className="cards__item-1">
+                        {/* <div className="cards__item-1">
                             <img className='cards__img grey-image' src={photo_5} alt="#" />
                             <h2 className='cards__item__title'><span>САША КОТ</span></h2>
                             <p className='cards__item__subtitle'>Мастер художественной татуировки</p>
@@ -93,7 +93,7 @@ const Masters = () => {
                                     СМОТРЕТЬ ПОРТФОЛИО
                                 </button>
                             </Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 </div>

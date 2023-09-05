@@ -12,7 +12,7 @@
     margin-bottom: 30px;
     h1 {
         color: #FFF;
-        font-family: Neusa;
+        font-family: 'Neusa';
         font-size: 72px;
         font-style: normal;
         font-weight: 700;
@@ -124,11 +124,11 @@
         text-align: left;
         flex-wrap: wrap;
     }
-    .products__title {
+    .products__title h1{
         font-family: "Neusa";
         font-style: normal;
         font-weight: 700;
-        font-size: 72px;
+        font-size: 36px;
         line-height: 98.2%;
         text-align: center;
         text-transform: uppercase;
@@ -144,7 +144,17 @@
     .products__subtitle {
         /* text-align: start; */
         display: flex;
-        text-align: center;
+        max-width: 274px;
+        p {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 190%; /* 30.4px */
+        }
+        
     }
 }
 @media (max-width: 320px) {
