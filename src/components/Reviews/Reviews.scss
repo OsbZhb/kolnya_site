@@ -48,10 +48,9 @@
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-position: top;
-    padding-bottom: 50px;
-    
+    background-position: 0;
 }
+    
 .reviews-background {
     
     height: 100%;
@@ -163,6 +162,9 @@
 @media (min-width: 480px) and (max-width: 767px) {
 }
 @media (min-width: 320px) and (max-width: 479px) {
+    .reviews {
+        margin-bottom: 0px;
+    }
     .yallow__wrapper-background {
         background-image: url(./photo/union.png);
         background-repeat: no-repeat;
@@ -170,11 +172,10 @@
         width: 100%;
         height: 100%;
         margin: 0 auto;
-        background-position: top;
-        background-size: cover;
+        background-position: bottom;
     }
     .reviews__content {
-        margin-top: 4rem;
+        // margin-top: 0rem;
     }
     .item-profile__text {
         font-family: "Inter";
@@ -187,6 +188,17 @@
     .reviews__btn {
         display: flex;
         
+    }
+    .reviews-title {
+        padding-top: 0rem;
+        margin-bottom: 0px;
+    }
+    .block__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom: 70px; */
+        padding-top: 170px;
     }
 }
 @media (max-width: 320px) {

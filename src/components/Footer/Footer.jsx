@@ -5,9 +5,10 @@ const Footer = () => {
         <footer className='footer'>
             <div className="footer__wrapper-background">
                 <div className="container">
-                    {/* <span className='footer__line'></span> */}
+                    
                         <div className="footer__block">
                             <h1>© 2022. Тату-студия “Кольня”. Все права защищены.</h1>
+                            <span className='footer__line'></span>
                             <nav className="footer__navbar">
                                 <ul className="footer__nav">
                                     <li className='nav-link'>
@@ -36,6 +37,7 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </nav>
+                            
                         </div>
                 </div>
             </div>
