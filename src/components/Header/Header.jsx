@@ -4,17 +4,10 @@ import logo from '../Header/logo.png'
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
-import { animateScroll as scroll, scroller } from 'react-scroll';
+// import { animateScroll as scroll, scroller } from 'react-scroll';
 import './Header.scss'
-import OurStudio from '../OurStudio/OurStudio';
+// import OurStudio from '../OurStudio/OurStudio';
 
-const scrollTo = (id) => {
-    scroller.scrollTo(id, {
-      duration: 800,
-      delay: 0,
-      smooth: 'easeInOutQuart'
-    });
-  };
 
 
 const Header = () => {
@@ -24,13 +17,6 @@ const Header = () => {
 
     const closeMenu = () => setClick(false)
 
-    const scrollTo = (ourStudio) => {
-        scroller.scrollTo(ourStudio, {
-          duration: 800,
-          delay: 0,
-          smooth: 'easeInOutQuart'
-        });
-      };
 
     return (
         <header className="header" id='header'>
@@ -47,28 +33,28 @@ const Header = () => {
                         </div>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
                             <li className='nav-item'>
-                                <Link to='/#ourStudio' onClick={() => scrollTo('ourStudio')} smooth={true} duration={500} onClick={closeMenu}>наша студия</Link>
+                                <a href='#ourStudio' smooth={true} duration={500} onClick={closeMenu}>наша студия</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/#masters" smooth={true} duration={500} onClick={closeMenu}>мастера</Link>
+                                <a href="#masters" smooth={true} duration={500} onClick={closeMenu}>мастера</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/#reviews" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>отзывы</Link>
+                                <a href="#reviews" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>отзывы</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/#coffeHouse" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>наша кофейня</Link>
+                                <a href="#coffeHouse" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>наша кофейня</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/#tattoSchool" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>обучение</Link>
+                                <a href="#tathrefSchool" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>обучение</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/#products" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>товары</Link>
+                                <a href="#products" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>товары</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/#questions" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>FAQ</Link>
+                                <a href="#questions" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>FAQ</a>
                             </li>
                             <li className='nav-item'>
-                                <Link to="/#contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>контакты</Link>
+                                <a href="#contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>контакты</a>
                             </li>
                         </ul>
                     </nav>
