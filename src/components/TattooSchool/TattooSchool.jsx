@@ -49,9 +49,14 @@ const TattooSchool = () => {
                         </div>
                     </div>
                     <div className="tattooSchool_videos">
-                        <img src={video_block} alt="#" />
-                        <img src={video_block} alt="#" />
-                        <img src={video_block} alt="#" />
+                        <div className="tattooSchool_videos_one">
+                        <iframe src="https://vk.com/video_ext.php?oid=-160644958&id=456239174" width="370" height="200" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div className="tattooSchool_videos_one">
+                        <iframe src="https://vk.com/video_ext.php?oid=-160644958&id=456239173" width="370" height="200" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+                        </div>                        <div className="tattooSchool_videos_one">
+                        <iframe src="https://vk.com/video_ext.php?oid=-160644958&id=456239172" width="370" height="200" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div className="tattooSchool_text">
                         <p>За весь курс каждый из учеников выполнит по 4 татуировки на моделях. Всё как всегда происходит под чутким руководством преподавателей индивидуально у каждого! Саша Кот также курирует каждого ученика. Подбор преподавателей для обучающегося происходит по средствам уклона на стилистику, предпочитаемую студентом.</p>
